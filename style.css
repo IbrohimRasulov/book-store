@@ -1,0 +1,35 @@
+/* Header for mobile */
+.cherry-color {
+    color: #d35266;
+}
+
+.light-gray {
+    color: #888;
+}
+
+.dark-gray {
+    color: #383838;
+    font-family: ;
+}
+
+
+
+
+nav {
+    background-color: #383838;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+ul {
+    display: inline-flex;
+}
+
+#right-icon {
+    
+}
+
+nav img {
+    border-radius: 50%;
+}

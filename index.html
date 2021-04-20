@@ -14,20 +14,16 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div><a href="#">
-                <i class="fas fa-book"> Book Store</i>
-            </div></a>
-            <div>
-                <ul>
-                    <li><a href="#"><i class="fas fa-home"></i> HOME</a></li>
-                    <li><a href="#"><i class="fas fa-list-ul"></i> CATEGORIES</a></li>
-                    <li><a href="#"><i class="fas fa-dollar-sign"> SELL BOOKS</i></a></li>
-                </ul>
-            </div>
-            <div>
-                <a href="#"><i class="fas fa-shopping-cart"> Cart</i></a>
-                <a href="#"> Ibrohim <img src="Img/profile.jpg" alt="" width="30px"></a>
+        <nav class="navbar fixed-top px-5">
+            <a href="#" id="left-icon" class="text-white"><i class="fas fa-book cherry-color"></i> Book Store</a>
+            <ul class="">
+                <li><a href="#"><i class="fas fa-home pr-5 cherry-color"> HOME</i></a></li>
+                <li><a href="#"><i class="fas fa-list-ul text-muted pr-5"> CATEGORIES</i></a></li>
+                <li><a href="#"><i class="fas fa-dollar-sign btn-danger py-1 px-2 small"> SELL BOOKS</i></a></li>
+            </ul>
+            <div id="right-icon" class="d-flex align-middle ">
+                <a href="#"><i class="fas fa-shopping-cart pr-3 text-white"> Shopping Cart</i></a>
+                <a href="#"><img src="Img/profile.jpg" alt="" width="30px"></a>
             </div>
         </nav>
         <div>
@@ -50,5 +46,6 @@
             </div>
         </div>
     </header>
+    <div class="space" style="margin-top: 1000px;"></div>
 </body>
 </html>
