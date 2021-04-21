@@ -14,24 +14,24 @@
 </head>
 <body>
     <header>
-        <nav class="navbar fixed-top px-5">
-            <a href="#" id="left-icon" class="text-white"><i class="fas fa-book cherry-color"></i> Book Store</a>
-            <ul class="">
-                <li><a href="#"><i class="fas fa-home pr-5 cherry-color"> HOME</i></a></li>
-                <li><a href="#"><i class="fas fa-list-ul text-muted pr-5"> CATEGORIES</i></a></li>
-                <li><a href="#"><i class="fas fa-dollar-sign btn-danger py-1 px-2 small"> SELL BOOKS</i></a></li>
+        <nav class="navbar fixed-top px-md-3 px-lg-5 bg-dark-gray">
+            <a href="#" id="left-icon" class="text-white text-uppercase font-type d-none d-md-inline"><i class="fas fa-book cherry-color"></i> book store</a>
+            <ul class="d-inline-flex">
+                <li><a href="#" class=" text-uppercase"><i class="fas fa-home pr-md-3 pr-lg-5 cherry-color"> home</i></a></li>
+                <li><a href="#" class=" text-uppercase"><i class="fas fa-list-ul text-muted pr-md-3 pr-lg-5"> categories</i></a></li>
+                <li><a href="#" class=" text-uppercase"><i class="fas fa-dollar-sign btn-link bg-cherry-color text-white py-1 px-2 small"> sell your books</i></a></li>
             </ul>
-            <div id="right-icon" class="d-flex align-middle ">
-                <a href="#"><i class="fas fa-shopping-cart pr-3 text-white"> Shopping Cart</i></a>
-                <a href="#"><img src="Img/profile.jpg" alt="" width="30px"></a>
+            <div id="right-icon" class="d-none d-md-flex">
+                <a href="#"><i class="fas fa-shopping-cart pr-3 text-muted pt-2 text-capitalize"> cart</i></a>
+                <a href="#"><img src="Img/right-logo.jpg" class="rounded-circle" alt="" width="30px"></a>
             </div>
         </nav>
-        <div>
-            <h1>World's Larges Online Bookstore</h1>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, corrupti exercitationem quas cumque obcaecati possimus.</h3>
+        <div class="header-highlights text-center font-type px-4">
+            <h1 class="text-white">Book Store</h1>
+            <h3 class="text-white py-3">World's Larges Online Bookstore</h3>
 
-            <div>
-                <select name="" id="">
+            <div class="d-md-inline-flex">
+                <select name="" id="" class="border-0 w-100">
                     <option value="">All Categories</option>
                     <option value="">Biographies & Memoirs</option>
                     <option value="">Business & Investing</option>
@@ -40,12 +40,27 @@
                     <option value="">Sci-Fi & Fantasy</option>
                     <option value="">Romance</option>
                 </select>
-                <input type="text" placeholder="Type book title or author">
-                <input type="text" placeholder="Country/Region">
-                <button type="button">Search</button>
+                <input class="border-0 w-100 my-2" type="text" placeholder="Type book title or author">
+                <input class="border-0 w-100 mb-2" type="text" placeholder="Country/Region">
+                <button class="border-0 bg-dark-gray text-white w-100" type="button">Search</button>
             </div>
         </div>
     </header>
+    
     <div class="space" style="margin-top: 1000px;"></div>
+
+    <footer>
+        <div class="footer-top">
+            <div>
+                <a href="#" class="text-white text-uppercase font-type bg-light-gray py-3 px-4"><i class="fas fa-book cherry-color"></i> book store</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet doloremque dolor eum, tempore doloribus ea corporis temporibus aut itaque asperiores, laboriosam eos libero nesciunt tenetur! Esse reprehenderit ad eveniet officiis!</p>
+            </div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="footer-bottom">
+
+        </div>
+    </footer>
 </body>
 </html>

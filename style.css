@@ -1,35 +1,42 @@
-/* Header for mobile */
+/* Header */
 .cherry-color {
     color: #d35266;
+}
+
+.bg-cherry-color {
+    background-color: #d35266;
 }
 
 .light-gray {
     color: #888;
 }
 
+.bg-light-gray {
+    background-color: #888;
+}
+
 .dark-gray {
     color: #383838;
-    font-family: ;
 }
 
-
-
-
-nav {
+.bg-dark-gray {
     background-color: #383838;
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
 }
 
-ul {
-    display: inline-flex;
+.font-type {
+    font-family: 'GothamPro', sans-serif;
 }
 
-#right-icon {
-    
+.header-highlights {
+    height: 400px;
+    padding-top: 150px;
+    background: linear-gradient(
+      rgba(206, 82, 103, 0.952), 
+      rgba(206, 79, 106, 0.815)
+      ), url(Img/library.jpg) no-repeat center / cover;
+
 }
 
-nav img {
-    border-radius: 50%;
+.header-highlights h1 {
+    font-size: 50px;
 }
