@@ -32,7 +32,7 @@
             <h3 class="text-white py-3">World's Larges Online Bookstore</h3>
 
             <div class="d-md-inline-flex">
-                <select name="" id="" class="border-0 w-100">
+                <select name="" id="" class="border-0 w-100 mb-2">
                     <option value="">All Categories</option>
                     <option value="">Biographies & Memoirs</option>
                     <option value="">Business & Investing</option>
@@ -41,23 +41,33 @@
                     <option value="">Sci-Fi & Fantasy</option>
                     <option value="">Romance</option>
                 </select>
-                <input class="border-0 w-100 my-2" type="text" placeholder="Type book title or author">
+                <input class="border-0 w-100 mb-2" type="text" placeholder="Type book title or author">
                 <input class="border-0 w-100 mb-2" type="text" placeholder="Country/Region">
-                <button class="border-0 bg-dark-gray text-white w-100" type="button">Search</button>
+                <button class="border-0 bg-dark-gray text-white w-100 mb-2" type="button">Search</button>
             </div>
         </div>
     </header>
-    
-    <div class="space" style="margin-top: 1000px;"></div>
+
+    <main>
+        <section>
+            <h2>Now Trending</h2>
+            <div class="grid grid-cols-12 items-center justify-items-center my-5">
+                <i class="fas fa-arrow-left col-span-2 cherry-color border p-2 rounded-circle"></i>
+                <div></div>
+                <i class="fas fa-arrow-right col-span-2 cherry-color border p-2 rounded-circle"></i>
+            </div>
+        </section>
+    </main>
+    <div class="" style="margin-top: 500px;"></div>
 
     <footer>
-        <div class="footer-top container d-md-inline-flex mx-auto my-5">
-            <div class="col-12 col-md-4">
-                <a href="#" class="text-white text-uppercase font-type bg-light-gray py-3 px-4"><i class="fas fa-book cherry-color"></i> book store</a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet doloremque dolor eum, tempore doloribus ea corporis temporibus aut itaque asperiores, laboriosam eos libero nesciunt tenetur! Esse reprehenderit ad eveniet officiis!</p>
-            </div>
+        <div class="footer-top d-md-inline-flex">
             <div class="col-12 col-md-5">
-                <ul class="">CATEGORIES
+                <a href="#" class="text-white text-uppercase font-type bg-light-gray py-3 px-4"><i class="fas fa-book cherry-color"></i> book store</a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet doloremque dolor eum, tempore doloribus ea corporis temporibus aut itaque asperiores!</p>
+            </div>
+            <div class="col-12 col-md-4 d-md-inline-flex">
+                <ul class="pr-4">CATEGORIES
                     <li class="d-none d-md-block"><a href="#">Biographies & Memoirs</a></li>
                     <li class="d-none d-md-block"><a href="#">Business & Investing</a></li>
                     <li class="d-none d-md-block"><a href="#">History</a></li>
@@ -92,14 +102,14 @@
                 </label>
             </div>
         </div>
-        <div class="footer-bottom">
+        <div class="footer-bottom d-flex justify-content-between">
             <h4>© Copyright 2021 - 2022. All rights reserved</h4>
             <div>
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-twitter-square"></i>
-                <i class="fab fa-google"></i>
-                <i class="fab fa-instagram"></i>
+                <a href="#"><i class="fab fa-facebook-square text-secondary"></i></a>
+                <a href="#"><i class="fab fa-linkedin text-secondary"></i></a>
+                <a href="#"><i class="fab fa-twitter-square text-secondary"></i></a>
+                <a href="#"><i class="fab fa-google text-secondary"></i></a>
+                <a href="#"><i class="fab fa-instagram text-secondary"></i></a>
             </div>
         </div>
     </footer>
