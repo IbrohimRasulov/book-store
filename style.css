@@ -65,6 +65,18 @@
     width: 30px;
 }
 
+.card-big-text {
+    font-size: 18px;
+}
+
+.card-small-text {
+    font-size: 14px;
+}
+
+.card-sizing {
+    margin-right: 5px;
+}
+
 @media (max-width: 767px) {
     .small-text {
         font-size: 12px;
@@ -78,4 +90,15 @@
         height: 450px;
     }
 
+    .card-big-text {
+        font-size: 14px;
+    }
+
+    .card-small-text {
+        font-size: 12px;
+    }
+
+    .card-sizing {
+        margin-right: 0px;
+    }
 }
