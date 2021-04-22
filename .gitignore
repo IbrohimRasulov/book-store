@@ -1,5 +1,3 @@
 # .gitignore
 node_modules
-.hintrc
-.stylelintrc.json
 .DS_Store
