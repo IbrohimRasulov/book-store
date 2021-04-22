@@ -33,7 +33,7 @@
             <h3 class="text-white py-3">World's Larges Online Bookstore</h3>
 
             <div class="d-md-inline-flex pt-md-5">
-                <select name="" id="" class="border-0 w-100 mb-2 py-1 px-1 mr-1">
+                <select name="categories" class="border-0 w-100 mb-2 py-1 px-1 mr-1">
                     <option value="">All Categories</option>
                     <option value="">Biographies & Memoirs</option>
                     <option value="">Business & Investing</option>
@@ -44,7 +44,7 @@
                 </select>
                 <input class="border-0 w-100 mb-2 py-1 px-1 mr-1" type="text" placeholder="Book title or author">
                 <input class="border-0 w-100 mb-2 py-1 px-1 mr-1" type="text" placeholder="Country/Region">
-                <a href="#"><button class="btn border-0 bg-dark-gray text-white w-100 mb-2 py-2 px-4" type="button">Search</button></a>
+                <a href="#" class="btn border-0 bg-dark-gray text-white w-100 mb-2 py-2 px-4 no-change">Search</a>
             </div>
         </div>
     </header>
@@ -271,26 +271,26 @@
                 </ul>
             </div>
             <div class="col-12 col-md-3 text-font-type justify-content-between">
-                <label class="py-1" for="">Language
-                    <select class="border p-1 pr-3" name="" id="">
+                <div class="py-1">Language
+                    <select class="border p-1 pr-3" name="language">
                         <option value="">English</option>
                         <option value="">Uzbek</option>
                         <option value="">Arabic</option>
                     </select>
-                </label><br>
-                <label class="py-1" for="">Location
-                    <select class="border p-1" name="" id="">
+                </div><br>
+                <div class="py-1">Location
+                    <select class="border p-1" name="location">
                         <option value="">Uzbekistan</option>
                         <option value="">USA</option>
                         <option value="">Egypt</option>
                     </select>
-                </label><br>
-                <label class="py-1" for="">Currency
-                    <select class="border p-1" name="" id="">
+                </div><br>
+                <div class="py-1">Currency
+                    <select class="border p-1" name="currency">
                         <option value="">US Dollars</option>
                         <option value="">UZS</option>
                     </select>
-                </label>
+                </div>
             </div>
         </div>
         <div class="footer-bottom d-flex justify-content-between text-font-type py-3">
@@ -300,7 +300,6 @@
                 <a href="#"><i class="fab fa-linkedin text-secondary fa-lg"></i></a>
                 <a href="#"><i class="fab fa-twitter-square text-secondary fa-lg"></i></a>
                 <a href="#"><i class="fab fa-google text-secondary fa-lg"></i></a>
-                <a href="#"><i class="fab fa-instagram text-secondary fa-lg"></i></a>
             </div>
         </div>
     </footer>

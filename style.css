@@ -1,104 +1,110 @@
 /* Header */
 .cherry-color {
-    color: #d35266;
+  color: #d35266;
 }
 
 .bg-cherry-color {
-    background-color: #d35266;
+  background-color: #d35266;
 }
 
 .light-gray {
-    color: #888;
+  color: #888;
 }
 
 .bg-light-gray {
-    background-color: #888;
+  background-color: #888;
 }
 
 .dark-gray {
-    color: #383838;
+  color: #383838;
 }
 
 .bg-dark-gray {
-    background-color: #383838;
+  background-color: #383838;
 }
 
 .text-font-type {
-    font-family: 'GothamPro', sans-serif;
+  font-family: 'GothamPro', sans-serif;
 }
 
 .header-highlights {
-    height: 400px;
-    padding-top: 150px;
-    background: linear-gradient(
-      rgba(206, 82, 103, 0.952), 
+  height: 400px;
+  padding-top: 150px;
+  background:
+    linear-gradient(
+      rgba(206, 82, 103, 0.952),
       rgba(206, 79, 106, 0.815)
-      ), url(Img/library.jpg) no-repeat center / cover;
-
+    ),
+    url(Img/library.jpg) no-repeat center / cover;
 }
 
 .header-highlights h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .bg-main {
-    background-color: #f7f7f7;
+  background-color: #f7f7f7;
 }
 
 #shop-icon {
-    fill: #d35266;
+  fill: #d35266;
 }
 
 .nav-links {
-    display: inline;
+  display: inline;
 }
 
 .nav-links li {
-    display: inline;
+  display: inline;
 }
 
 .card {
-    background-color: white;
+  background-color: white;
 }
 
 #right-icon img {
-    width: 30px;
+  width: 30px;
 }
 
 .card-big-text {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .card-small-text {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .card-sizing {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 @media (max-width: 767px) {
-    .small-text {
-        font-size: 12px;
-    }
+  .small-text {
+    font-size: 12px;
+  }
 
-    #right-icon img {
-        width: 20px;
-    }
+  #right-icon img {
+    width: 20px;
+  }
 
-    .header-highlights {
-        height: 450px;
-    }
+  .header-highlights {
+    height: 450px;
+  }
 
-    .card-big-text {
-        font-size: 14px;
-    }
+  .card-big-text {
+    font-size: 14px;
+  }
 
-    .card-small-text {
-        font-size: 12px;
-    }
+  .card-small-text {
+    font-size: 12px;
+  }
 
-    .card-sizing {
-        margin-right: 0px;
-    }
+  .card-sizing {
+    margin-right: 0;
+  }
+}
+
+.no-change:hover {
+  color: inherit;
+  text-decoration: none;
 }
