@@ -49,14 +49,212 @@
         </div>
     </header>
 
-    <main>
-        
+    <main class="bg-main px-6 lg:px-32">
+        <div class="md:grid grid-cols-12 md:border border-l-0">
+            <div class="col-span-4 border hidden md:block">
+                <div class="mx-1 mt-4 text-font-type small"> 
+                    <span>
+                        <input type="checkbox" name="new" id="new">
+                        <label for="new">New Release</label>
+                    </span>
+                    <span class="ml-1">
+                        <input type="checkbox" name="sign" id="sign">
+                        <label for="new">Signed Editions</label>
+                    </span>
+                </div>
+                <ul class="mx-2 text-font-type">
+                    <li>
+                        <h2 class="border-bottom font-bold mt-4 mb-2 pb-2">Genres</h2>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="men" id="men">
+                        <label for="men">All Genres</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="women" id="women">
+                        <label for="women">Self-developement</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="kids" id="kids">
+                        <label for="kids">History</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="kids" id="kids">
+                        <label for="kids">Religion</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="kids" id="kids">
+                        <label for="kids">Fiction</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="kids" id="kids">
+                        <label for="kids">Sci-fi</label>
+                    </li>
+                </ul>
+                <ul class="mx-2 text-font-type">
+                    <li>
+                        <h2 class="border-bottom font-bold mt-4 mb-2 pb-2">Price Range</h2>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="men" id="men">
+                        <label for="men">0 - 5$</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="women" id="women">
+                        <label for="women">5$ - 10$</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="kids" id="kids">
+                        <label for="kids">10$ - 15$</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="kids" id="kids">
+                        <label for="kids">15$ - 20$</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="kids" id="kids">
+                        <label for="kids">20$ - 35$</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="kids" id="kids">
+                        <label for="kids">+ 35$</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-span-8">
+                <section class="text-font-type border-bottom">
+                    <h2 class="text-sm md:px-3 pt-4 md:pb-4 md:border-b"><span>12</span> results for <span class="font-bold">"Islam"</span> in Department <span class="font-bold">"Religion"</span></h2>
+                    <div class="flex justify-between md:hidden">
+                        <div class="mt-2">
+                            <label for="filter">Filter by</label>
+                            <select name="filter" id="filter">
+                                <option value="Date Arrived">genres</option>
+                            </select>
+                        </div>
+                        <div class="mt-2">
+                            <label for="sort">Sort by</label>
+                            <select name="sort" id="sort">
+                                <option value="price">Price</option>
+                            </select>
+                        </div>
+                    </div>
+                </section>
+                <div id="result-cards">
+                    <div class="result-card py-4 border-gray-300 border-bottom md:flex text-font-type">
+                        <img src="Img/saodatasri.jpg" alt="" class="md:w-4/12 md:px-3">
+                        <div class="md:w-8/12 md:px-1 md:mr-4 md:flex md:justify-between flex-col">
+                            <h3 class="font-bold lg:text-xl h4 py-2">Saodat Asri Qissalari</h3>
+                            <span class="text-xs leading-3 xl:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi enim quia. Eius facere exercitationem optio voluptatem.</span>
+                            <p class="text-sm py-2 font-bold">Ahmad Lutfiy Qozonchi</p>
+                            <div class="flex justify-between text-sm items-center">
+                                <button class="border p-1 px-2 bg-cherry-color">
+                                    <i class="fas fa-plus text-white"></i>
+                                </button>
+                                <h6 class="font-bold cherry-color card-big-text">10$</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-card py-4 border-gray-300 border-bottom md:flex text-font-type">
+                        <img src="Img/AhmadLutfiy.png" alt="" class="md:w-4/12 md:px-3">
+                        <div class="md:w-8/12 md:px-1 md:mr-4 md:flex md:justify-between flex-col">
+                            <h3 class="font-bold lg:text-xl h4 py-2">Eng Sara Asarlar</h3>
+                            <span class="text-xs leading-3 xl:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi enim quia. Eius facere exercitationem optio voluptatem.</span>
+                            <p class="text-sm py-2 font-bold">Ahmad Lutfiy Qozonchi</p>
+                            <div class="flex justify-between text-sm items-center">
+                                <button class="border p-1 px-2 bg-cherry-color">
+                                    <i class="fas fa-plus text-white"></i>
+                                </button>
+                                <h6 class="font-bold cherry-color card-big-text">10$</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-card py-4 border-gray-300 border-bottom md:flex text-font-type">
+                        <img src="Img/rumiy.jpg" alt="" class="md:w-4/12 md:px-3">
+                        <div class="md:w-8/12 md:px-1 md:mr-4 md:flex md:justify-between flex-col">
+                            <h3 class="font-bold lg:text-xl h4 py-2">Jaloliddin Rumiy</h3>
+                            <span class="text-xs leading-3 xl:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi enim quia. Eius facere exercitationem optio voluptatem.</span>
+                            <p class="text-sm py-2 font-bold">Ahmad Lutfiy Qozonchi</p>
+                            <div class="flex justify-between text-sm items-center">
+                                <button class="border p-1 px-2 bg-cherry-color">
+                                    <i class="fas fa-plus text-white"></i>
+                                </button>
+                                <h6 class="font-bold cherry-color card-big-text">10$</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-card py-4 border-gray-300 border-bottom md:flex text-font-type">
+                        <img src="Img/salohiddin.png" alt="" class="md:w-4/12 md:px-3">
+                        <div class="md:w-8/12 md:px-1 md:mr-4 md:flex md:justify-between flex-col">
+                            <h3 class="font-bold lg:text-xl h4 py-2">Salohiddin Ayyubiy</h3>
+                            <span class="text-xs leading-3 xl:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi enim quia. Eius facere exercitationem optio voluptatem.</span>
+                            <p class="text-sm py-2 font-bold">Ahmad Lutfiy Qozonchi</p>
+                            <div class="flex justify-between text-sm items-center">
+                                <button class="border p-1 px-2 bg-cherry-color">
+                                    <i class="fas fa-plus text-white"></i>
+                                </button>
+                                <h6 class="font-bold cherry-color card-big-text">10$</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-card py-4 border-gray-300 border-bottom md:flex text-font-type">
+                        <img src="Img/shenlikogli.jpg" alt="" class="md:w-4/12 md:px-3">
+                        <div class="md:w-8/12 md:px-1 md:mr-4 md:flex md:justify-between flex-col">
+                            <h3 class="font-bold lg:text-xl h4 py-2">Imomning Maniken Qizi</h3>
+                            <span class="text-xs leading-3 xl:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi enim quia. Eius facere exercitationem optio voluptatem.</span>
+                            <p class="text-sm py-2 font-bold">Ahmad Lutfiy Qozonchi</p>
+                            <div class="flex justify-between text-sm items-center">
+                                <button class="border p-1 px-2 bg-cherry-color">
+                                    <i class="fas fa-plus text-white"></i>
+                                </button>
+                                <h6 class="font-bold cherry-color card-big-text">10$</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-card py-4 border-gray-300 border-bottom md:flex text-font-type">
+                        <img src="Img/tarixiMuhammadiy.png" alt="" class="md:w-4/12 md:px-3">
+                        <div class="md:w-8/12 md:px-1 md:mr-4 md:flex md:justify-between flex-col">
+                            <h3 class="font-bold lg:text-xl h4 py-2">Tarixi Muhammadiya</h3>
+                            <span class="text-xs leading-3 xl:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi enim quia. Eius facere exercitationem optio voluptatem.</span>
+                            <p class="text-sm py-2 font-bold">Ahmad Lutfiy Qozonchi</p>
+                            <div class="flex justify-between text-sm items-center">
+                                <button class="border p-1 px-2 bg-cherry-color">
+                                    <i class="fas fa-plus text-white"></i>
+                                </button>
+                                <h6 class="font-bold cherry-color card-big-text">10$</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-card py-4 border-gray-300 border-bottom md:flex text-font-type">
+                        <img src="Img/yunusemro.jpg" alt="" class="md:w-4/12 md:px-3">
+                        <div class="md:w-8/12 md:px-1 md:mr-4 md:flex md:justify-between flex-col">
+                            <h3 class="font-bold lg:text-xl h4 py-2">Yunus Emro</h3>
+                            <span class="text-xs leading-3 xl:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi enim quia. Eius facere exercitationem optio voluptatem.</span>
+                            <p class="text-sm py-2 font-bold">Ahmad Lutfiy Qozonchi</p>
+                            <div class="flex justify-between text-sm items-center">
+                                <button class="border p-1 px-2 bg-cherry-color">
+                                    <i class="fas fa-plus text-white"></i>
+                                </button>
+                                <h6 class="font-bold cherry-color card-big-text">10$</h6>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="pagination flex justify-around my-3 mx-6 pb-3 md:w-1/2">
+                        <button class="border px-2 text-white base-color-bg">1</button>
+                        <button class="border px-2 sec-color-text bg-white">2</button>
+                        <button class="border px-2 sec-color-text bg-white">3</button>
+                        <span>...</span>
+                        <button class="border px-2 sec-color-text bg-white">9</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer class="mt-4 px-4">
         <div class="footer-top d-md-inline-flex">
             <div class="col-12 col-md-4 text-center text-font-type">
-                <a href="#" class="text-uppercase light-gray h4"><i class="fas fa-book cherry-color"></i> book store</a>
+                <a href="#" class="text-uppercase light-gray h4 no-change"><i class="fas fa-book cherry-color"></i> book store</a>
                 <p class="light-gray card-small-text py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet doloremque dolor eum, tempore doloribus ea corporis temporibus aut itaque asperiores!</p>
             </div>
             <div class="col-12 col-md-5 d-md-inline-flex text-font-type">
@@ -97,7 +295,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer-bottom d-flex justify-content-between text-font-type py-3">
+        <div class="footer-bottom d-flex justify-content-between text-font-type py-3 col-md-11">
             <h4 class="card-small-text col-8">© Copyright 2021 - 2022. All rights reserved</h4>
             <div class="align-right">
                 <a href="#"><i class="fab fa-facebook-square fa-lg text-secondary"></i></a>
