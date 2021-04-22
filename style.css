@@ -23,7 +23,7 @@
     background-color: #383838;
 }
 
-.font-type {
+.text-font-type {
     font-family: 'GothamPro', sans-serif;
 }
 
@@ -41,46 +41,40 @@
     font-size: 50px;
 }
 
-.base-color-text {
-    color: #d35266;
-  }
-  
-  .sec-color-text {
-    color: #888;
-  }
-  
-  .base-color-bg {
-    background-color: #d35266;
-  }
-  
-  .bg-main {
+.bg-main {
     background-color: #f7f7f7;
-  }
-  
-  #shop-icon {
+}
+
+#shop-icon {
     fill: #d35266;
-  }
-  
-  .nav-links {
+}
+
+.nav-links {
     display: inline;
-  }
-  
-  .nav-links li {
+}
+
+.nav-links li {
     display: inline;
-  }
-  
-  .small-text {
-    font-size: 9px;
-  }
-  
-  .sec-text {
-    font-family: 'GothamPro', 'Courier New', Courier, monospace;
-  }
-  
-  .darky-text {
-    color: #383838;
-  }
-  
-  .card {
+}
+
+.card {
     background-color: white;
-  }
+}
+
+#right-icon img {
+    width: 30px;
+}
+
+@media (max-width: 767px) {
+    .small-text {
+        font-size: 12px;
+    }
+
+    #right-icon img {
+        width: 20px;
+    }
+
+    .header-highlights {
+        height: 450px;
+    }
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap link -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://unpkg.com/tailwindcss@%5E2/dist/tailwind.min.css" rel="stylesheet">
     <!-- Fontawesome link -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <title>Book Store</title>
@@ -16,23 +17,23 @@
 <body>
     <header>
         <nav class="navbar fixed-top px-md-3 px-lg-5 bg-dark-gray">
-            <a href="#" id="left-icon" class="text-white text-uppercase font-type d-none d-md-inline"><i class="fas fa-book cherry-color"></i> book store</a>
+            <a href="#" class="text-white text-uppercase font-type d-none d-md-inline"><i class="fas fa-book cherry-color"></i> book store</a>
             <ul class="d-inline-flex">
-                <li><a href="#" class=" text-uppercase"><i class="fas fa-home pr-md-3 pr-lg-5 cherry-color"> home</i></a></li>
-                <li><a href="#" class=" text-uppercase"><i class="fas fa-list-ul text-muted pr-md-3 pr-lg-5"> categories</i></a></li>
-                <li><a href="#" class=" text-uppercase"><i class="fas fa-dollar-sign btn-link bg-cherry-color text-white py-1 px-2 small"> sell your books</i></a></li>
+                <li><a href="#" class="text-uppercase pr-3"><i class="fas fa-home pr-md-3 pr-lg-5 cherry-color small-text"> home</i></a></li>
+                <li><a href="#" class=" text-uppercase"><i class="fas fa-list-ul text-muted pr-md-3 pr-lg-5 small-text"> categories</i></a></li>
+                <li><a href="#" class="d-none d-md-flex text-uppercase"><i class="fas fa-dollar-sign btn-link bg-cherry-color text-white py-1 px-2 small  small-text"> sell your books</i></a></li>
             </ul>
-            <div id="right-icon" class="d-none d-md-flex">
-                <a href="#"><i class="fas fa-shopping-cart pr-3 text-muted pt-2 text-capitalize"> cart</i></a>
-                <a href="#"><img src="Img/right-logo.jpg" class="rounded-circle" alt="" width="30px"></a>
+            <div id="right-icon" class="d-flex small-text">
+                <a href="#"><i class="fas fa-shopping-cart pr-3 text-muted pt-1 pt-md-2 text-capitalize"> cart</i></a>
+                <a href="#"><img src="Img/right-logo.jpg" class="rounded-circle" alt=""></a>
             </div>
         </nav>
-        <div class="header-highlights text-center font-type px-4">
+        <div class="header-highlights text-center text-font-type px-4">
             <h1 class="text-white">Book Store</h1>
             <h3 class="text-white py-3">World's Larges Online Bookstore</h3>
 
-            <div class="d-md-inline-flex">
-                <select name="" id="" class="border-0 w-100 mb-2">
+            <div class="d-md-inline-flex pt-md-5">
+                <select name="" id="" class="border-0 w-100 mb-2 py-1 px-1 mr-1">
                     <option value="">All Categories</option>
                     <option value="">Biographies & Memoirs</option>
                     <option value="">Business & Investing</option>
@@ -41,60 +42,55 @@
                     <option value="">Sci-Fi & Fantasy</option>
                     <option value="">Romance</option>
                 </select>
-                <input class="border-0 w-100 mb-2" type="text" placeholder="Type book title or author">
-                <input class="border-0 w-100 mb-2" type="text" placeholder="Country/Region">
-                <button class="border-0 bg-dark-gray text-white w-100 mb-2" type="button">Search</button>
+                <input class="border-0 w-100 mb-2 py-1 px-1 mr-1" type="text" placeholder="Book title or author">
+                <input class="border-0 w-100 mb-2 py-1 px-1 mr-1" type="text" placeholder="Country/Region">
+                <button class="border-0 bg-dark-gray text-white w-100 mb-2 py-2 px-1" type="button">Search</button>
             </div>
         </div>
     </header>
 
     <!-- Highlights -->
     <section class="my-6 lg:mx-40">
-        <h2 class="px-6">HOT DEALS</h2>
+        <h2 class="px-6">Now Trending</h2>
         <div class="grid grid-cols-12 items-center justify-items-center my-5">
-            <i class="fas fa-arrow-left col-span-2 base-color-text border-2 p-2 rounded-full"></i>
+            <i class="fas fa-arrow-left col-span-2 cherry-color border p-2 rounded-circle"></i>
             <div class="col-span-8 md:grid grid-cols-12">
                 <div class="col-span-4 lg:col-span-3">
-                    <img src="assets/hoodie-4.jpg" alt="" >
+                    <img src="Img/dennbraun.png" alt="" >
                 </div>
                 <div class="col-span-8 flex flex-col justify-between md:py-5">
                     <div>
-                        <h3 class="text-sm base-color-text font-bold lg:text-lg">Life is Good - Yellow Hoodie</h3>
-                        <p class="text-xs lg:text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus itaque iure debitis dolor aut repudiandae deleniti consectetur.<span class="hidden md:inline"> Numquam tempore asperiores.</span></p>
+                        <h3 class="text-sm cherry-color font-bold lg:text-lg">Iptido</h3>
+                        <p class="text-xs lg:text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus itaque iure debitis dolor aut repudiandae deleniti consectetur.</p>
                     </div>
                     <div>
-                        <p class="text-xs"><span class=" block  text-xs"> <span class="font-bold">For </span>Men</span>
+                        <p class="text-xs"><span class="block  text-xs"> <span class="font-bold">Author: </span>Den Brown</span>
                         </p>
-                        <p class="text-xs"><span class=" block  text-xs"> <span class="font-bold">Collection: </span>Winter</span>
+                        <p class="text-xs"><span class="block  text-xs"> <span class="font-bold">Genres: </span>Fiction</span>
                         </p>
                     </div>
                     <div>
-                        <button class="base-color-bg text-white px-5 py-1 m-0">12$</button><button class="base-color-bg text-white px-5 py-1 m-0 border-l border-gray-500"><i class="fas fa-info-circle"></i> Details</button>
+                        <button class="bg-cherry-color text-white px-5 py-1 m-0">12$</button><button class="bg-cherry-color text-white px-5 py-1 m-0 border-l border-gray-500"><i class="fas fa-shopping-cart text-white"></i> Add to cart</button>
                     </div>
                 </div>
             </div>
-            <i class="fas fa-arrow-right col-span-2 base-color-text border-2 p-2 rounded-full"></i>
+            <i class="fas fa-arrow-right col-span-2 cherry-color border p-2 rounded-circle"></i>
         </div>
     </section>
     <!-- Highlights -->
 
     <main class="bg-main border-t border-b border-gray-300	">
-        <section class="px-6 pb-4 lg:mx-40">
-            <h2 class="darky-text py-3 border-b border-gray-300">
-                <i class="fas fa-parachute-box mr-2"></i> New Arrival 
-                <span class="sec-color-text ml-1">
-                    (Spring and Summer)
-                </span>
-            </h2>
-            <!-- Cards Container -->
-            <div class="flex flex-wrap justify-between md:mx-3">
+        <section class="px-6 px-lg-0 pb-4 lg:mx-40">
+            <h2 class="dark-gray py-3 border-b border-gray-300">
+                <i class="fas fa-parachute-box mr-2"></i> New Releases</h2>
+            <div class="flex flex-wrap justify-content-between md:mx-3 border-top">
                 <div class="card mt-3 px-4 border border-gray-300 w-6/12 md:w-3/12 small-text font-bold mx-0 -mx-1">
                     <img src="Img/qorqma.png" alt="" class="mt-1">
-                    <h3 class="darky-text ">Basic Sweatpants - Black</h3>
-                    <h4 class="base-color-text">New</h4>
-                    <h5 class="sec-color-text">For <span class="darky-text">Men</span></h5>
+                    <h3 class="dark-gray">Qo'rqma</h3>
+                    <h5 class="light-gray">Genres: <span class="dark-gray">True Stories</span></h5>
+                    <h5 class="light-gray">Author: <span class="dark-gray">Javlon Jovliev</span></h5>
                     <div class="flex justify-between py-3">
-                        <button class="border px-1 sec-color-text">
+                        <button class="border px-1 light-gray">
                             <i class="fas fa-plus"></i>
                         </button>
                         <h6 class="base-color-text font-bold">10$</h6>
@@ -102,11 +98,11 @@
                 </div>
                 <div class="card mt-3 px-4 border border-gray-300 w-6/12 md:w-3/12 small-text font-bold mx-0 -mx-1">
                     <img src="Img/yulduzlaraybdor.png" alt="" class="mt-1">
-                    <h3 class="darky-text ">Hoodie NONE OYB - Grape</h3>
+                    <h3 class="dark-gray">Hoodie NONE OYB - Grape</h3>
                     <h4 class="base-color-text">New</h4>
-                    <h5 class="sec-color-text">For <span class="darky-text">Men</span></h5>
+                    <h5 class="light-gray">For <span class="dark-gray">Men</span></h5>
                     <div class="flex justify-between py-3">
-                        <button class="border px-1 sec-color-text">
+                        <button class="border px-1 light-gray">
                             <i class="fas fa-plus"></i>
                         </button>
                         <h6 class="base-color-text font-bold">10$</h6>
@@ -114,11 +110,11 @@
                 </div>
                 <div class="card mt-3 px-4 border border-gray-300 w-6/12 md:w-3/12 small-text font-bold mx-0 -mx-1">
                     <img src="Img/genriford.png" alt="" class="mt-1">
-                    <h3 class="darky-text ">Long Sleeve Basic - Heather Grey</h3>
+                    <h3 class="dark-gray">Long Sleeve Basic - Heather Grey</h3>
                     <h4 class="base-color-text">New</h4>
-                    <h5 class="sec-color-text">For <span class="darky-text">Men</span></h5>
+                    <h5 class="light-gray">For <span class="dark-gray">Men</span></h5>
                     <div class="flex justify-between py-3">
-                        <button class="border px-1 sec-color-text">
+                        <button class="border px-1 light-gray">
                             <i class="fas fa-plus"></i>
                         </button>
                         <h6 class="base-color-text font-bold">10$</h6>
@@ -126,175 +122,19 @@
                 </div>
                 <div class="card mt-3 px-4 border border-gray-300 w-6/12 md:w-3/12 small-text font-bold mx-0 -mx-1">
                     <img src="Img/morri.png" alt="" class="mt-1">
-                    <h3 class="darky-text ">Basic Sweatpants - Black</h3>
+                    <h3 class="dark-gray">Basic Sweatpants - Black</h3>
                     <h4 class="base-color-text">New</h4>
-                    <h5 class="sec-color-text">For <span class="darky-text">Kids</span></h5>
+                    <h5 class="light-gray">For <span class="dark-gray">Kids</span></h5>
                     <div class="flex justify-between py-3">
-                        <button class="border px-1 sec-color-text">
-                            <i class="fas fa-plus"></i>
-                        </button>
-                        <h6 class="base-color-text font-bold">10$</h6>
-                    </div>
-                </div>
-                <div class="card mt-3 px-4 border border-gray-300 w-6/12 md:w-3/12 small-text font-bold mx-0 -mx-1  md:hidden ">
-                    <img src="assets/new-arrival-1.jpg" alt="" class="mt-1">
-                    <h3 class="darky-text ">Basic Sweatpants - Black</h3>
-                    <h4 class="base-color-text">New</h4>
-                    <h5 class="sec-color-text">For <span class="darky-text">Men</span></h5>
-                    <div class="flex justify-between py-3">
-                        <button class="border px-1 sec-color-text">
+                        <button class="border px-1 light-gray">
                             <i class="fas fa-plus"></i>
                         </button>
                         <h6 class="base-color-text font-bold">10$</h6>
                     </div>
                 </div>            
             </div>
-                <!-- Cards Container -->
         </section>
-        <section class="px-6 pb-4 lg:mx-40">
-            <h2 class="darky-text py-3 border-b border-gray-300">
-                <i class="fas fa-snowflake mr-2"></i> On SALE! 
-                <span class="sec-color-text ml-1">
-                    (Winter Collection)
-                </span>
-            </h2>
-            <!-- Cards Container -->
-            <div class="flex flex-wrap justify-between md:mx-3">
-                <div class="card mt-3 px-4 border border-gray-300 w-6/12 md:w-3/12 small-text font-bold mx-0 -mx-1">
-                    <img src="assets/new-arrival-1.jpg" alt="" class="mt-1">
-                    <h3 class="darky-text ">Basic Sweatpants - Black</h3>
-                    <h4 class="base-color-text">SALE!</h4>
-                    <h5 class="sec-color-text">For <span class="darky-text">Men</span></h5>
-                    <div class="flex justify-between py-3">
-                        <button class="border px-1 sec-color-text">
-                            <i class="fas fa-plus"></i>
-                        </button>
-                        <h6 class="base-color-text font-bold">7$</h6>
-                    </div>
-                </div>
-                <div class="card mt-3 px-4 border border-gray-300 w-6/12 md:w-3/12 small-text font-bold mx-0 -mx-1">
-                    <img src="assets/winter-1.jpg" alt="" class="mt-1">
-                    <h3 class="darky-text ">Basic Sweatpants - Heather Grey</h3>
-                    <h4 class="base-color-text">SALE!</h4>
-                    <h5 class="sec-color-text">For <span class="darky-text">Men</span></h5>
-                    <div class="flex justify-between py-3">
-                        <button class="border px-1 sec-color-text">
-                            <i class="fas fa-plus"></i>
-                        </button>
-                        <h6 class="base-color-text font-bold">7$</h6>
-                    </div>
-                </div>
-                <div class="card mt-3 px-4 border border-gray-300 w-6/12 md:w-3/12 small-text font-bold mx-0 -mx-1">
-                    <img src="assets/winter-2.jpg" alt="" class="mt-1">
-                    <h3 class="darky-text ">Basic Sweatpants - Navy Blue</h3>
-                    <h4 class="base-color-text">New</h4>
-                    <h5 class="sec-color-text">For <span class="darky-text">Men</span></h5>
-                    <div class="flex justify-between py-3">
-                        <button class="border px-1 sec-color-text">
-                            <i class="fas fa-plus"></i>
-                        </button>
-                        <h6 class="base-color-text font-bold">7$</h6>
-                    </div>
-                </div>
-                <div class="card mt-3 px-4 border border-gray-300 w-6/12 md:w-3/12 small-text font-bold mx-0 -mx-1">
-                    <img src="assets/winter-3.jpg" alt="" class="mt-1">
-                    <h3 class="darky-text ">Basic Sweatpants - Black</h3>
-                    <h4 class="base-color-text">New</h4>
-                    <h5 class="sec-color-text">For <span class="darky-text">Kids</span></h5>
-                    <div class="flex justify-between py-3">
-                        <button class="border px-1 sec-color-text">
-                            <i class="fas fa-plus"></i>
-                        </button>
-                        <h6 class="base-color-text font-bold">7$</h6>
-                    </div>
-                </div>
-                <div class="card mt-3 px-4 border border-gray-300 w-6/12 md:w-3/12 small-text font-bold mx-0 -mx-1 md:hidden">
-                    <img src="assets/hoodie-5.jpg" alt="" class="mt-1">
-                    <h3 class="darky-text ">Basic Sweatpants - Black</h3>
-                    <h4 class="base-color-text">New</h4>
-                    <h5 class="sec-color-text">For <span class="darky-text">Men</span></h5>
-                    <div class="flex justify-between py-3">
-                        <button class="border px-1 sec-color-text">
-                            <i class="fas fa-plus"></i>
-                        </button>
-                        <h6 class="base-color-text font-bold">7$</h6>
-                    </div>
-                </div>            
-            </div>
-                <!-- Cards Container -->
-        </section>
-        <section class="px-6 pb-4 lg:mx-40">
-            <h2 class="darky-text py-3 border-b border-gray-300">
-                <i class="fas fa-child mr-2"></i> Kids 
-                <span class="sec-color-text ml-1">
-                    (Spring and Summer)
-                </span>
-            </h2>
-            <!-- Cards Container -->
-            <div class="flex flex-wrap justify-between md:mx-3">
-                <div class="card mt-3 px-4 border border-gray-300 w-6/12 md:w-3/12 small-text font-bold mx-0 -mx-1">
-                    <img src="assets/kids_1.jpg" alt="" class="mt-1">
-                    <h3 class="darky-text ">Basic Sweatpants - Black</h3>
-                    <h4 class="base-color-text">New</h4>
-                    <h5 class="sec-color-text">For <span class="darky-text">Kids</span></h5>
-                    <div class="flex justify-between py-3">
-                        <button class="border px-1 sec-color-text">
-                            <i class="fas fa-plus"></i>
-                        </button>
-                        <h6 class="base-color-text font-bold">9$</h6>
-                    </div>
-                </div>
-                <div class="card mt-3 px-4 border border-gray-300 w-6/12 md:w-3/12 small-text font-bold mx-0 -mx-1">
-                    <img src="assets/kids_2.jpg" alt="" class="mt-1">
-                    <h3 class="darky-text ">Hoodie NONE OYB - Grape</h3>
-                    <h4 class="base-color-text">New</h4>
-                    <h5 class="sec-color-text">For <span class="darky-text">Kids</span></h5>
-                    <div class="flex justify-between py-3">
-                        <button class="border px-1 sec-color-text">
-                            <i class="fas fa-plus"></i>
-                        </button>
-                        <h6 class="base-color-text font-bold">8$</h6>
-                    </div>
-                </div>
-                <div class="card mt-3 px-4 border border-gray-300 w-6/12 md:w-3/12 small-text font-bold mx-0 -mx-1">
-                    <img src="assets/kids_3.jpg" alt="" class="mt-1">
-                    <h3 class="darky-text ">Long Sleeve Basic - Heather Grey</h3>
-                    <h4 class="base-color-text">New</h4>
-                    <h5 class="sec-color-text">For <span class="darky-text">Kids</span></h5>
-                    <div class="flex justify-between py-3">
-                        <button class="border px-1 sec-color-text">
-                            <i class="fas fa-plus"></i>
-                        </button>
-                        <h6 class="base-color-text font-bold">7$</h6>
-                    </div>
-                </div>
-                <div class="card mt-3 px-4 border border-gray-300 w-6/12 md:w-3/12 small-text font-bold mx-0 -mx-1">
-                    <img src="assets/kids_4.jpg" alt="" class="mt-1">
-                    <h3 class="darky-text ">Basic Sweatpants - Black</h3>
-                    <h4 class="base-color-text">New</h4>
-                    <h5 class="sec-color-text">For <span class="darky-text">Kids</span></h5>
-                    <div class="flex justify-between py-3">
-                        <button class="border px-1 sec-color-text">
-                            <i class="fas fa-plus"></i>
-                        </button>
-                        <h6 class="base-color-text font-bold">6$</h6>
-                    </div>
-                </div>
-                <div class="card mt-3 px-4 border border-gray-300 w-6/12 md:w-3/12 small-text font-bold mx-0 -mx-1  md:hidden">
-                    <img src="assets/winter-2.jpg" alt="" class="mt-1">
-                    <h3 class="darky-text ">Basic Sweatpants - Black</h3>
-                    <h4 class="base-color-text">New</h4>
-                    <h5 class="sec-color-text">For <span class="darky-text">Kids</span></h5>
-                    <div class="flex justify-between py-3">
-                        <button class="border px-1 sec-color-text">
-                            <i class="fas fa-plus"></i>
-                        </button>
-                        <h6 class="base-color-text font-bold">5$</h6>
-                    </div>
-                </div>            
-            </div>
-                <!-- Cards Container -->
-        </section>
+        
     </main>
     <footer class="mt-5">
         <div class="footer-top d-md-inline-flex">
