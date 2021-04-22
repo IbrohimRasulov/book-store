@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://unpkg.com/tailwindcss@%5E2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Fontawesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Book Store</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar fixed-top px-md-3 px-lg-5 bg-dark-gray">
+            <a href="#" class="text-white text-uppercase font-type d-none d-md-inline"><i class="fas fa-book cherry-color"></i> book store</a>
+            <ul class="d-inline-flex">
+                <li><a href="#" class="text-uppercase pr-3"><i class="fas fa-home pr-md-3 pr-lg-5 cherry-color small-text"> home</i></a></li>
+                <li><a href="#" class=" text-uppercase"><i class="fas fa-list-ul text-muted pr-md-3 pr-lg-5 small-text"> categories</i></a></li>
+                <li><a href="#" class="d-none d-md-flex text-uppercase"><i class="fas fa-dollar-sign btn-link bg-cherry-color text-white py-1 px-2 small  small-text"> sell your books</i></a></li>
+            </ul>
+            <div id="right-icon" class="d-flex small-text">
+                <a href="#"><i class="fas fa-shopping-cart pr-3 text-muted pt-1 pt-md-2 text-capitalize"> cart</i></a>
+                <a href="#"><img src="Img/right-logo.jpg" class="rounded-circle" alt=""></a>
+            </div>
+        </nav>
+        <div class="header-highlights text-center text-font-type px-4">
+            <h1 class="text-white">Book Store</h1>
+            <h3 class="text-white py-3">World's Larges Online Bookstore</h3>
+
+            <div class="d-md-inline-flex pt-md-5">
+                <select name="categories" class="border-0 w-100 mb-2 py-1 px-1 mr-1">
+                    <option value="">All Categories</option>
+                    <option value="">Biographies & Memoirs</option>
+                    <option value="">Business & Investing</option>
+                    <option value="">History</option>
+                    <option value="">Literature & Fiction</option>
+                    <option value="">Sci-Fi & Fantasy</option>
+                    <option value="">Romance</option>
+                </select>
+                <input class="border-0 w-100 mb-2 py-1 px-1 mr-1" type="text" placeholder="Book title or author">
+                <input class="border-0 w-100 mb-2 py-1 px-1 mr-1" type="text" placeholder="Country/Region">
+                <a href="#" class="btn border-0 bg-dark-gray text-white w-100 mb-2 py-2 px-4 no-change">Search</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+    </main>
+
+    <footer class="mt-4 px-4">
+        <div class="footer-top d-md-inline-flex">
+            <div class="col-12 col-md-4 text-center text-font-type">
+                <a href="#" class="text-uppercase light-gray h4"><i class="fas fa-book cherry-color"></i> book store</a>
+                <p class="light-gray card-small-text py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet doloremque dolor eum, tempore doloribus ea corporis temporibus aut itaque asperiores!</p>
+            </div>
+            <div class="col-12 col-md-5 d-md-inline-flex text-font-type">
+                <ul class="pr-4">
+                    <li class="font-weight-bold cherry-color h6 border-bottom border-danger">CATEGORIES</li>
+                    <li class="d-none d-md-block"><a href="#">Biographies & Memoirs</a></li>
+                    <li class="d-none d-md-block"><a href="#">Business & Investing</a></li>
+                    <li class="d-none d-md-block"><a href="#">History</a></li>
+                    <li class="d-none d-md-block"><a href="#">Literature & Fiction</a></li>
+                </ul>
+                <ul class="">
+                    <li class="font-weight-bold cherry-color h6 border-bottom border-danger">CREDITS</li>
+                    <li class="d-none d-md-block"><a href="#">Microverse</a></li>
+                    <li class="d-none d-md-block"><a href="#">Microverse</a></li>
+                    <li class="d-none d-md-block"><a href="#">Microverse</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-3 text-font-type justify-content-between">
+                <div class="py-1">Language
+                    <select class="border p-1 pr-3" name="language">
+                        <option value="">English</option>
+                        <option value="">Uzbek</option>
+                        <option value="">Arabic</option>
+                    </select>
+                </div><br>
+                <div class="py-1">Location
+                    <select class="border p-1" name="location">
+                        <option value="">Uzbekistan</option>
+                        <option value="">USA</option>
+                        <option value="">Egypt</option>
+                    </select>
+                </div><br>
+                <div class="py-1">Currency
+                    <select class="border p-1" name="currency">
+                        <option value="">US Dollars</option>
+                        <option value="">UZS</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom d-flex justify-content-between text-font-type py-3">
+            <h4 class="card-small-text col-8">© Copyright 2021 - 2022. All rights reserved</h4>
+            <div class="align-right">
+                <a href="#"><i class="fab fa-facebook-square fa-lg text-secondary"></i></a>
+                <a href="#"><i class="fab fa-linkedin text-secondary fa-lg"></i></a>
+                <a href="#"><i class="fab fa-twitter-square text-secondary fa-lg"></i></a>
+                <a href="#"><i class="fab fa-google text-secondary fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
