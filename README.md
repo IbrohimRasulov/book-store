@@ -23,22 +23,35 @@ The website is fully responsive with the help of media query breakpoints and boo
 - HTML
 - Media queries
 - Bootstrap
-- Visual Studio Code
-- Live Server
-- Linters
 
 ## Live Demo
 
 [Live Demo Link](https://ibrohimrasulov.github.io/book-store/)
 
 ## Getting Started
-First things to do on the way of cloning this <a href="https://ibrohimrasulov.github.io/book-store/">page</a> are these steps.
 
-• git clone https://github.com/IbrohimRasulov/book-store.git <br>
-• cd book-store <br>
-• git checkout -b capstone <br>
-• git pull origin capstone <br>
-• If you have vscode live-server installed, run it and open localhost:3000
+**To get a local copy up and running follow these simple steps.**
+
+### Prerequisites
+
+- Web browser.
+
+### Setup
+
+- Download/Clone the repository files and navigate to index.html.
+
+### Install
+
+- No installation required.
+
+### Deployment
+
+-You can deploy this project by cloning it then:
+
+- Goto the repository's settings.
+- Navigate to GitHub Pages section.
+- Select the appropriate branch.
+- Submit your changes.
 
 ## Authors
 
