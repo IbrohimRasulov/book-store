@@ -4,7 +4,7 @@
 
 > The project I am going to build for the HTML & CSS Capstone Project is based on an online shop for books. 
 The webpage looks like <a href="https://www.notion.so/ZATTIX-design-full-view-ed43f6bdfe0144608d4f2fc18758e81a">This sample</a> page.
-The website is fully responsive with the help of media query breakpoints and bootstrap. This project has been built with help of modern <button>CSS3</button> and <button>Bootstrap 4</button>.
+The website is fully responsive with the help of media query breakpoints and bootstrap. This project has been built with help of modern CSS3 and Bootstrap 4.
 
 
 ![screenshot](./screenshot-1.png)
